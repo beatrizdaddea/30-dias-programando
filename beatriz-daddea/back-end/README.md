@@ -4,7 +4,7 @@
 
  Stack Utilizada: Java
 
-## Desarios Diários
+## Desafios Diários
 ### Dia 1 
 - Soma de 2 números e Imprimir na Tela
 
