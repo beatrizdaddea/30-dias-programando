@@ -5,8 +5,12 @@
  Stack Utilizada: Java
 
 ## Desafios Diários
+
 ### Dia 1 
 - Soma de 2 números e Imprimir na Tela
 
 ### Dia 2
 - Saber se um aluno foi ou nao aprovado no final do semestre. O usuário dará entrada em 4 notas (de cada bimestre), e a média tem que ser 60. Se a nota for menor, mostrar que o aluno foi reprovado, se for maior ou igual a 60, mostrar que foi aprovado.
+
+### Dia 3 
+- Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
