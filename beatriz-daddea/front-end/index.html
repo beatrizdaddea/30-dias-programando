@@ -1,83 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <link rel="stylesheet" href="styles.css/" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <p>codepay.</p>
-      <nav>
-        <ul>
-          <li>Início</li>
-          <li>Comprar</li>
-          <li>Comprar</li>
-          <li>Ajuda</li>
-        </ul>
 
-        <div>
-          <a href="#"
-            >Conta <img src="../front-end/assets/icons/Vector.svg" alt="Menu Dropdown"
-          /></a>
-          <a href="#"
-            >2 items
-            <img
-              src="../front-end/assets/icons/ShoppingCart.svg"
-              alt="Carrinho de compras"
-          /></a>
-        </div>
-      </nav>
-    </header>
+<head>
+  <link rel="stylesheet" href="styles.css/" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodePay</title>
+</head>
 
-    <main>
-      <aside>
-        <ul>
-          <li><img src="../front-end/assets/icons/user.svg" alt="" />Conta</li>
-          <li><img src="../front-end/assets/icons/package.svg" alt="" />Envio</li>
-          <li><img src="../front-end/assets/icons/wallet.svg" alt="" />Pagamento</li>
-        </ul>
-      </aside>
+<body>
+  <header>
+    <p>codepay.</p>
+    <nav>
+      <ul>
+        <li>Início</li>
+        <li>Comprar</li>
+        <li>Comprar</li>
+        <li>Ajuda</li>
+      </ul>
+
       <div>
-        <h2>Detalhes da conta</h2>
-        <form action="login">
-          <span>Email:</span>
-          <input type="text">
-          <span>Senha:</span>
-          <input type="text"></input>
-          <span>Registre-se para conta <button>Entrar</button></span>
-        </form>
-        <hr>
-        <a href="">Cancelar pedido</a>
-        <button>Continuar comprando</button>
+        <a href="#">Conta <img src="../front-end/assets/icons/Vector.svg" alt="Menu Dropdown" /></a>
+        <a href="#">2 items
+          <img src="../front-end/assets/icons/ShoppingCart.svg" alt="Carrinho de compras" /></a>
       </div>
+    </nav>
+  </header>
 
-      <h2>Resumo do pedido</h2>
-      <img
-        src="../front-end/assets/images/MouseGamer.png"
-        alt="Mouse Gamer Readragon"
-      />
-      <p>Mouse Gamer Readragon</p>
-      <p>R$15,00</p>
-      <p>- 2 +</p>
-      
-      <input placeholder="Cupom de desconto"></input>
-      <button>Aplicar</button>
+  <main>
+    <aside>
+      <ul>
+        <li><img src="../front-end/assets/icons/user.svg" alt="" />Conta</li>
+        <li><img src="../front-end/assets/icons/package.svg" alt="" />Envio</li>
+        <li><img src="../front-end/assets/icons/wallet.svg" alt="" />Pagamento</li>
+      </ul>
+    </aside>
+    <section>
+      <h2>Detalhes da Conta</h2>
+      <form action="login">
+        <span>Email:</span>
+        <input type="text">
+        <span>Senha:</span>
+        <input type="text"></input>
+        <span>Registre-se para conta <button>Entrar</button></span>
+      </form>
+      <hr>
+      <a href="">Cancelar pedido</a>
+      <button>Continuar comprando</button>
+    </section>
+
+    <section>
+      <h2>Detalhes do envio</h2>
+      <div>
+        <form action="endereço">
+          <span> Usar endereço salvo </span>
+          <select name="escolhaEndereco" id="escolhaEndereco">
+            <option value="enderecoSalvo">Rua Quiriquiri, 345</option>
+          </select>
+          <span>Cidade:</span>
+          <input type="text" value="São Paulo">
+          <span>Rua, Bairro:</span>
+          <input type="text" name="number" id="numero" value="Rua Quiriquiri, Jardim São Judas Tadeu">
+          <input type="number" value="123">
+          <select name="estado" id="escolhaEstado">
+            <option value="estadoCliente">São Paulo</option>
+          </select>
+
+        </form>
+      </div>
+      <div>
+        <form action="">
+          <span for="escolhaCartao">Usar o cartão salvo </span>
+          <select name="escolhaCartao" id="escolhaCartao">
+            <option value="cartaoSalvo"> Julia Silva, 123456</option>
+          </select>
+          <span>Nome no cartão:</span>
+          <input type="text" value="Julia Silva">
+          <span>Número do cartão:</span>
+          <input type="text" value="123456789/0"></input>
+          <span>Expiração:</span>
+          <input type="text" value="03"></input> / <input type="text" value="2024"></input>
+          <span>CVC:</span>
+          <input type="text" value="123"></input>
+      </div>
+      <hr>
+      <div>
+        <a href="">Cancelar Pedido</a>
+        <button type="button">
+          Continuar comprando
+        </button>
+      </div>
+    </section>
+
+    <h2>Resumo do pedido</h2>
+    <img src="../front-end/assets/images/MouseGamer.png" alt="Mouse Gamer Readragon" />
+    <p>Mouse Gamer Readragon</p>
+    <p>R$15,00</p>
+    <p>- 2 +</p>
+
+    <input placeholder="Cupom de desconto"></input>
+    <button>Aplicar</button>
     <p>
-        <span>Taxa</span>
-        <span>R$5,40</span>
+      <span>Taxa</span>
+      <span>R$5,40</span>
     </p>
 
     <p>
-        <span>Envio</span>
-        <span>Grátis</span>
+      <span>Envio</span>
+      <span>Grátis</span>
     </p>
 
     <p>
-        <span>Total</span>
-        <span>R$18,40</span>
+      <span>Total</span>
+      <span>R$18,40</span>
     </p>
-    </main>
-  </body>
+  </main>
+</body>
+
 </html>
