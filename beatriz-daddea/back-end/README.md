@@ -17,4 +17,4 @@
 
 ### Dia 4 
 - Escreva um programa que realize a conversão de graus Celsius (C) para graus Fahrenheit(F). Utilize a fórmula abaixo:
-    - F = ( 9 * C) / 5
+    - F = (( 9 * C) / 5) + 32
