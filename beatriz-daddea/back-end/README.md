@@ -18,3 +18,6 @@
 ### Dia 4 
 - Escreva um programa que realize a conversão de graus Celsius (C) para graus Fahrenheit(F). Utilize a fórmula abaixo:
     - F = (( 9 * C) / 5) + 32
+
+### Dia 5
+- Desenvolva um programa que execute a leitura de um valor numérico inteiro, caso o valor esteja entre 1 e 9 apresentar a mensagem “Dentro do valor permitido” e caso contrário apresentar a mensagem “Fora do Valor Permitido”.
