@@ -24,3 +24,6 @@
 
 ### Dia 6
 - Apresentar ao usuário uma tela solicitando um login e depois uma senha, o usuário e senha corretos devem estar armazenados em constantes no seu programa. Se o usuário acertar o usuário e a senha exibir a mensagem ACESSO CONCEDIDO, caso contrário exibir a mensagem ACESSO NEGADO e voltar a pedir o usuário e senha, essa condição deve-se repetir até que o usuário acerte a combinação.
+
+### Dia 7 
+- Elaborar um programa que apresente o somatório dos números na faixa de 1 até 500.
