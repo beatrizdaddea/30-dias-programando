@@ -27,3 +27,6 @@
 
 ### Dia 7 
 - Elaborar um programa que apresente o somatório dos números na faixa de 1 até 500.
+
+### Dia 8 
+- Armazenar em dois vetores V1 e V2 9 valores numéricos inteiros e exibir o resultado da multiplicação dos números do V1 com os correspondentes em V2
