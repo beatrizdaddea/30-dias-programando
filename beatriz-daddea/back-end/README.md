@@ -30,3 +30,6 @@
 
 ### Dia 8 
 - Armazenar em dois vetores V1 e V2 9 valores numéricos inteiros e exibir o resultado da multiplicação dos números do V1 com os correspondentes em V2
+
+### Dia 9 
+- Leia um vetor de 40 posições. Contar e escrever quantos valores pares ele possui.
